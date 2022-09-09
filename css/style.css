@@ -1,0 +1,52 @@
+.container,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl {
+  max-width: 90%;
+}
+.top-header {
+  background: #e9e8e8;
+}
+.category-menu {
+  margin-top: 105px;
+}
+/* Card */
+.card {
+  overflow: hidden;
+  transition: 0.3s;
+}
+.card:hover {
+  box-shadow: 10px 10px 10px #e9e8e8;
+}
+.card img {
+  height: 200px;
+  transition: 1s;
+}
+
+.card img:hover {
+  transform: scale(1.2);
+}
+.card h5 {
+  font-size: 18px;
+  height: 40px;
+}
+.card:hover h5 {
+  color: red;
+}
+
+.category li {
+  padding: 0px 20px;
+  margin: 0px 10px;
+  border: 1px solid #0dcaf0;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.5s;
+  text-align: center;
+  margin-bottom: 5px;
+}
+.category li:hover {
+  background: #0dcaf0;
+}
